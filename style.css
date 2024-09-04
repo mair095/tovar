@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    margin: 50px auto;
+
+}
+.conteiner {
+    width: 350px;
+    height: 434px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+
+.svg {
+    text-align: center;
+}
+
+
+.svg2 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 0 10px;
+}
+
+
+.text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: start;
+    padding: 0 10px;
+
+}
+.text2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25.2px;
+}
+
+.number{
+    text-align: right;
+    color: gray;
+    background-color: white;
+    width: 290px;
+    height: 74px;
+    margin-top: 50px;
+    margin-left: 20px;
+   
+}
+.number2 {
+    text-align: right;
+    color: #941B0C;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 51.6px;
+    margin-top: 8px;
+    
+    
+
+}
+
+.space {
+    text-decoration: line-through;
+}
+
+.head {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+
+}
+
+.card2 {
+    background-color: #FFD100;
+}
+
+.number3 {
+    background-color: #FFD100;
+}
+
+.skidka {
+    position: absolute;
+    top: -20px;
+    left: -30px;
+}
